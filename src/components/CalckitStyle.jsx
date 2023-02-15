@@ -17,7 +17,6 @@ export const AppModalOverlay = styled.div`
     font-family: sans-serif;
     overflow-y: auto;
     font-family: 'Righteous', cursive;
-
     .modal-container{
         /* background-color: linear-gradient; */
         background: linear-gradient(170deg, #1a0816 60%, #3a1331 60%);
@@ -35,10 +34,10 @@ export const AppModalOverlay = styled.div`
         border-right: 1px solid #3a1331;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-
+    
     .calculator-screen{
         height: 20vh;
-        width: 115%;
+        width: 99%;
         background-color: transparent;
         background-position: right bottom;
         transition: all 0.5s ease-out;
@@ -46,6 +45,11 @@ export const AppModalOverlay = styled.div`
         border-radius: 0.5rem;
         box-shadow: inset 0 0 10px #3a1331;
         margin-bottom: 0.6rem;
+        color: #eecb59;
+        padding: 0 1rem;
+        font-size: 3rem;
+        font-weight: 900;
+        text-align: end;
     }
 
     table{
@@ -53,7 +57,6 @@ export const AppModalOverlay = styled.div`
         width: 270px;
         height: auto;
     }
-
     input[type=button] {
         width: 100%;
         height: 70%;
@@ -73,7 +76,6 @@ export const AppModalOverlay = styled.div`
         box-shadow: inset 0 0 10px #3a1331;
         outline: none;
     }
-
     input[type=button]:hover {
         background-position: right bottom;
         background-color: #140511;
@@ -83,53 +85,43 @@ export const AppModalOverlay = styled.div`
         opacity: 0.7;
         translate: 5s;
     }
-
     input:active[type=button] {
         background: #e5e5e5;
         -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
         -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
         box-shadow: inset 0px 0px 5px #c1c1c1;
     }
-
     .operand input[type=button]{
         color: #d9ad22;
         
     }
-
     .operand input[type=button]:hover{
         color: #eecb59;
         box-shadow: inset 0 0 10px #c78db9;
     }
-
     .equivalent input[type=button]{
         background-color: #d9ad22;
         color: #140511;
-        width: 155%;
+        width: 144%;
     }
-
     .equivalent input[type=button]:hover{
         color: #140511;
     }
-
     .copyright{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1%;
         padding: 2rem 4rem 0 4rem;
     }
-
     .copyright:hover{
         opacity: 0.9;
         cursor: pointer;
     }
-
     .copyright p{
         font-size: 0.85rem;
         margin-top: -0.1rem;
         color: #f0daed;
-
     }
-
     .copyright img{
         width: 100%;
         max-width: 100px;
