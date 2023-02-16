@@ -17,7 +17,9 @@ const Calckit = () => {
     }
 
     /* percentage function calculates the % of the screen value */
-    const percentage = () => {}
+    const percentage = () => {
+      setResult(result/100)
+    }
 
     /* displayValue function displays the clicked value on the screen */
     const displayValue = (e) =>{
@@ -47,7 +49,7 @@ const Calckit = () => {
             <tr className='row-1'>
                 <td className='operand'><input className='clear' type="button" value="C" onClick={clearScreen}/></td>
                 <td className='operand'><input className='del' type="button" value="D" onClick={deleteValue}/></td>
-                <td className='operand'><input className='percent' type="button" value="%" onClick={displayValue}/></td>
+                <td className='operand'><input className='percent' type="button" value="%" onClick={percentage}/></td>
                 <td className='operand'><input className='add' type="button" value="+" onClick={displayValue}/></td>
             </tr>
 
