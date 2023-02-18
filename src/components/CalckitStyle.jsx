@@ -47,7 +47,7 @@ export const AppModalOverlay = styled.div`
         margin-bottom: 0.6rem;
         color: #eecb59;
         padding: 0 1rem;
-        font-size: 3rem;
+        font-size: 1.5rem;
         font-weight: 900;
         text-align: end;
     }

@@ -13,5 +13,8 @@ To add the the node modules and yarn packages
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Hosting
+https://calckit.vercel.app/
+
 ## The Core Team
 Chinaza Favour Anajemba
